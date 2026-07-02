@@ -1,0 +1,13 @@
+@import "../styles/globals.css";
+
+.galar-map .map-hidden {
+  display: none;
+}
+
+@media (prefers-reduced-motion) {
+  *,
+  ::before,
+  ::after {
+    animation: none !important;
+  }
+}
